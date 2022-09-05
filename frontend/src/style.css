@@ -1,0 +1,35 @@
+.InBetweenBanner2{
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    text-align: center;
+}
+.InBetweenBanner2_label1{
+    font-size: 35px;
+    font-family: josefin sans;
+    letter-spacing: 0.015em;
+    color: #151875 ;
+    font-weight: bold;
+}
+.InBetweenBanner2_label2{
+    font-size: 35px;
+    font-family: josefin sans;
+    letter-spacing: 0.015em;
+    color: #151875 ;
+    font-weight: bold;
+
+}
+.InBetweenBanner2_button button{
+    font-family: josefin sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.02em;
+    color:  #FFFFFF;
+    background-color: rgb(224, 42, 139);
+    outline: none;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+}
