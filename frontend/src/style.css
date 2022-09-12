@@ -94,12 +94,14 @@
     flex-direction: row;
 }
 .Mainbanner_right_image2{
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     color: white;
+    z-index: 0;
 }
 .Mainbanner_right_image2_txt{
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
-    left: 50%;   
+    left: 50%;  
+    /* z-index: +1;  */
 }
