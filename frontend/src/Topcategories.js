@@ -1,7 +1,7 @@
-import chair1 from "./images/chair1.png";
-import chair2 from "./images/chair2.png";
-import chair3 from "./images/chair3.png";
-import chair4 from "./images/chair4.png";
+import chair1 from "./Images/chair1.png";
+import chair2 from "./Images/chair2.png";
+import chair3 from "./Images/chair3.png";
+import chair4 from "./Images/chair4.png";
 import "./style.css";
 export default function Topcategories() {
     return (

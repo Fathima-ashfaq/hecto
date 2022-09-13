@@ -1,7 +1,6 @@
-import light from "./images/light.png";
-import armchair from "./images/armchair.png";
-import vector from "./images/Vector 14.png";
-import "./style.css";
+import light from "./Images/light.png";
+import armchair from "./Images/armchair.png";
+import "./Mainbanner.css";
 export default function Mainbanner() {
     return (
         <>
@@ -17,7 +16,7 @@ export default function Mainbanner() {
                         <label>New Furniture Collection </label>
                     </div>
                     <div className="Mainbanner_center_l3">
-                       <label>Trends in 2020</label>
+                        <label>Trends in 2020</label>
                     </div>
                     <div className="Mainbanner_center_l4">
                         <label>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing</label>
@@ -27,21 +26,14 @@ export default function Mainbanner() {
                     </div>
                     <div className="Mainbanner_center_button">
                         <button>Shop Now</button>
-                    </div> 
+                    </div>
                 </div>
                 <div className="Mainbanner_right">
                     <div className="Mainbanner_right_image1">
                         <img src={armchair}></img>
                     </div>
-                    <div className="Mainbanner_right_image2">
-                        <img src={vector}></img>
-                        <div className="Mainbanner_right_image2_txt">50% off</div>
-                    </div>
-
                 </div>
-
             </div>
-
         </>
     )
 
