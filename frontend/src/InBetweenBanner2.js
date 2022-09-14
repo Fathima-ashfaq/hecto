@@ -1,4 +1,4 @@
-import rec from "./Images/inbetweenbanner2img.png";
+import rec from "./Images/inbetweenbanner2_background.png";
 import "./InBetweenBanner2.css";
 
 export default function InBetweenBanner2() {

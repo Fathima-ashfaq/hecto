@@ -1,5 +1,5 @@
-import light from "./Images/light.png";
-import armchair from "./Images/armchair.png";
+import light from "./Images/mainbanner_light.png";
+import armchair from "./Images/mainbanner_armchair.png";
 import "./Mainbanner.css";
 export default function Mainbanner() {
     return (
