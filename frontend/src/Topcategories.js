@@ -1,8 +1,8 @@
-import chair1 from "./Images/chair1.png";
-import chair2 from "./Images/chair2.png";
-import chair3 from "./Images/chair3.png";
-import chair4 from "./Images/chair4.png";
-import "./style.css";
+import chair1 from "./Images/topcategories_chair1.png";
+import chair2 from "./Images/topcategories_chair2.png";
+import chair3 from "./Images/topcategories_chair3.png";
+import chair4 from "./Images/topcategories_chair4.png";
+import "./Topcategories.css";
 export default function Topcategories() {
     return (
         <>
@@ -11,64 +11,30 @@ export default function Topcategories() {
                     <label>Top Categories</label>
                 </div>
                 <div className="Topcategories_cont">
-                    <div className="Topcategories_cont_cont1">
-                        <div className="Topcategories_cont_cont1_image1">
-                            <img src={chair1}></img>
-                            <div className="Topcategories_cont_cont1_image1_button">
-                                <button>view shop</button>
-                            </div>
-                        </div>
-                        <div className="Topcategories_cont_cont1_label">
-                            <div className="Topcategories_cont_cont1_label_label1">
-                                <label>Mini LCW chair</label>
-                            </div>
-                            <div className="Topcategories_cont_cont1_label_label2">
-                                <label> $56.00</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="Topcategories_cont_cont2">
-                        <div className="Topcategories_cont_cont2_image">
-                            <img src={chair2}></img>
-                        </div>
-                        <div className="Topcategories_cont_cont2_label">
-                            <div className="Topcategories_cont_cont2_label_label1">
-                                <label>Mini LCW chair</label>
-                            </div>
-                            <div className="Topcategories_cont_cont2_label_label2">
-                                <label> $56.00</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="Topcategories_cont_cont3">
-                        <div className="Topcategories_cont_cont3_image">
-                            <img src={chair3}></img>
-                        </div>
-                        <div className="Topcategories_cont_cont3_label">
-                            <div className="Topcategories_cont_cont3_label_label1">
-                                <label>Mini LCW chair</label>
-                            </div>
-                            <div className="Topcategories_cont_cont3_label_label2">
-                                <label> $56.00</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="Topcategories_cont_cont4">
-                        <div className="Topcategories_cont_cont4_image">
-                            <img src={chair4}></img>
-                        </div>
-                        <div className="Topcategories_cont_cont4_label">
-                            <div className="Topcategories_cont_cont4_label_label1">
-                                <label>Mini LCW chair</label>
-                            </div>
-                            <div className="Topcategories_cont_cont4_label_label2">
-                                <label> $56.00</label>
-                            </div>
-                        </div>
-                    </div>
+                    <Topcategories_list image={chair1}></Topcategories_list>
+                    <Topcategories_list image={chair2}></Topcategories_list>
+                    <Topcategories_list image={chair3}></Topcategories_list>
+                    <Topcategories_list image={chair4}></Topcategories_list>
                 </div>
             </div>
-
+        </>
+    )
+}
+// to display similiar component
+function Topcategories_list({ image }) {
+    return (
+        <>
+            <div className="Topcategories_list">
+                <div className="Topcategories_list_img">
+                    {/* assigning images to a variable */}
+                    <img src={image}></img>
+                    <button className="Topcategories_list_img_button">View Shop</button>
+                </div>
+                <div className="Topcategories_list_label">
+                    <label className="Topcategories_list_label_l1">Mini LCW Chair</label>
+                    <label className="Topcategories_list_label_l2">$56.00</label>
+                </div>
+            </div>
         </>
     )
 }
