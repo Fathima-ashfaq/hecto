@@ -1,17 +1,22 @@
 .Mainbanner {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background: #F2F0FF;
 }
 
-.Mainbanner_center {
+.Mainbanner_main {
+    display: flex;
+    flex-direction: row;
+}
+
+.Mainbanner_main_center {
     display: flex;
     flex-direction: column;
     margin-top: 20%;
     margin-left: -89px;
 }
 
-.Mainbanner_center_l1 {
+.Mainbanner_main_center_l1 {
     Font-family: "segoe ui";
     font-style: normal;
     font-weight: 700;
@@ -20,8 +25,8 @@
     color: #FB2E86;
 }
 
-.Mainbanner_center_l2,
-.Mainbanner_center_l3 {
+.Mainbanner_main_center_l2,
+.Mainbanner_main_center_l3 {
     Font-family: "segoe ui";
     font-size: 30px;
     line-height: 35px;
@@ -30,8 +35,8 @@
     font-weight: bold;
 }
 
-.Mainbanner_center_l4,
-.Mainbanner_center_l5 {
+.Mainbanner_main_center_l4,
+.Mainbanner_main_center_l5 {
     Font-family: "segoe ui";
     font-style: normal;
     font-weight: 700;
@@ -40,7 +45,7 @@
     color: #8A8FB9;
 }
 
-.Mainbanner_center_button button {
+.Mainbanner_main_center_button button {
     Font-family: "segoe ui";
     font-size: 10px;
     letter-spacing: 0.02em;
@@ -55,7 +60,17 @@
 
 }
 
-.Mainbanner_right img {
+.Mainbanner_main_right img {
     width: 606px;
     height: 589px;
+}
+
+.Mainbanner_bottom img {
+    width: 33.07px;
+    height: 7.6px;
+   
+}
+.Mainbanner_bottom{
+    display: flex;
+    justify-content: center;
 }

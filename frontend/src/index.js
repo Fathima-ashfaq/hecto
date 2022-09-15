@@ -9,7 +9,7 @@ import Testing from './Testing'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Relatedproducts/>
+    <Mainbanner/>
   </React.StrictMode>
 );
 
