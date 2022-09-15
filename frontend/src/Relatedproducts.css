@@ -1,0 +1,54 @@
+.relatedproducts {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.relatedproducts_list_image img {
+    width: 170px;
+    height: 240px;
+}
+
+.relatedproducts_header {
+
+    font-size: 26px;
+    line-height: 42px;
+    /* text-align: center; */
+    Font-family: "segoe ui";
+    color: #101750;
+    padding-right: 45%;
+    padding-bottom: 20px;
+}
+
+.relatedproducts_cont {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.relatedproducts_list {
+    display: grid;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+.relatedproducts_list_label_l1 {
+
+    font-size: 16px;
+    line-height: 19px;
+    color: #151875;
+    Font-family: "segoe ui";
+}
+
+.relatedproducts_list_label_l2 {
+    Font-family: "segoe ui";
+    font-size: 13px;
+    line-height: 15px;
+    color: #151875;
+}
+
+.relatedproducts_list_label_l1 img {
+    width: 39px;
+    height: 6px;
+}

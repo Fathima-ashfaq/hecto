@@ -9,23 +9,22 @@ export default function Checkout() {
         <>
             <div className="checkout">
                 <div className="checkout_right">
+                    <div className="checkout_right_cont">
+                        <div className="checkout_right_cont_product">
+                            <label>Product</label>
+                        </div>
+                        <div className="checkout_right_cont_price">
+                            <label>Price</label>
+                        </div>
+                        <div className="checkout_right_cont_quantity">
+                            <label>Quantity</label>
+                        </div>
+                        <div className="checkout_right_cont_total">
+                            <label>Total</label>
+                        </div>
+                    </div>
                     <div className="checkout_right_cont" >
                         {/* <Checkout_cont header={"product","Price","Quantity","Total"}></Checkout_cont> */}
-                        <table>
-                            <Checkout_cont image={bag1} label={"Ut diam consequat"}></Checkout_cont>
-                            <Checkout_cont image={bag2} label={"Vel faucibus posuere"}></Checkout_cont>
-                            <Checkout_cont image={bag3} label={"Ac vitae vestibulum"}></Checkout_cont>
-                            <Checkout_cont image={bag4} label={"Elit massa diam"}></Checkout_cont>
-                            <Checkout_cont image={bag5} label={"Proin pharetra elementum"}></Checkout_cont>
-                            <div className="checkout_right_cont_button">
-                                <div className="checkout_right_cont_button_btn1">
-                                    <button >Update Cart</button>
-                                </div>
-                                <div className="checkout_right_cont_button_btn2">
-                                    <button >Clear Cart</button>
-                                </div>
-                            </div>
-                        </table>
                         <Checkout_cont image={bag1} label={"Ut diam consequat"}></Checkout_cont>
                         <Checkout_cont image={bag2} label={"Vel faucibus posuere"}></Checkout_cont>
                         <Checkout_cont image={bag3} label={"Ac vitae vestibulum"}></Checkout_cont>
@@ -48,19 +47,28 @@ export default function Checkout() {
                         </div>
                         <div className="checkout_left_total_body">
                             <div className="checkout_left_total_body_row1">
-                                <label>Subtotals</label>
-                                <label>£219.00</label>
+                                <div className="checkout_left_total_body_row1_l1">
+                                    <label>Subtotals</label>
+                                </div>
+                                <div className="checkout_left_total_body_row1_l2">
+                                    <label>£219.00</label>
+                                </div>
+
                             </div>
                             <div className="checkout_left_total_body_row2">
-                                <label>Totals</label>
-                                <label>£325.00</label>
+                                <div className="checkout_left_total_body_row2_l1">
+                                    <label>Totals</label>
+                                </div>
+                                <div className="checkout_left_total_body_row2_l2">
+                                    <label >£325.00</label>
+                                </div>
                             </div>
                             <div className="checkout_left_total_body_row3">
                                 <input type="checkbox"></input>
                                 <label>Shipping & taxes calculated at checkout</label>
                             </div>
                             <div className="checkout_left_total_body_button">
-                                <button>Proceed To Checkout</button>
+                                <button type="button" class="block">Proceed To Checkout</button>
                             </div>
                         </div>
                     </div>
@@ -69,9 +77,15 @@ export default function Checkout() {
                             <label>Calculate Shopping</label>
                         </div>
                         <div className="checkout_left_calculate_body">
-                            <label>Bangladesh</label>
-                            <label>Mirpur Dhaka - 1200</label>
-                            <label>Postal Code</label>
+                            <div className="checkout_left_calculate_body_l1">
+                                <label>Bangladesh</label>
+                            </div>
+                            <div className="checkout_left_calculate_body_l2">
+                                <label>Mirpur Dhaka - 1200</label>
+                            </div>
+                            <div className="checkout_left_calculate_body_l3">
+                                <label>Postal Code</label>
+                            </div>
                             <button>Calculate Shopping</button>
                         </div>
                     </div>
