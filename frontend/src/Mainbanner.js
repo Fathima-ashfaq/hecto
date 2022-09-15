@@ -15,7 +15,7 @@ export default function Mainbanner() {
                             <label>Best Furniture For Your Castle....</label>
                         </div>
                         <div className="Mainbanner_main_center_l2">
-                            <label>New Furniture Collection </label>
+                            <label>New Furniture Collection</label>
                         </div>
                         <div className="Mainbanner_main_center_l3">
                             <label>Trends in 2020</label>

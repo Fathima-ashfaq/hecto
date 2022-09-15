@@ -12,7 +12,7 @@
 .Mainbanner_main_center {
     display: flex;
     flex-direction: column;
-    margin-top: 20%;
+    justify-content: center;
     margin-left: -89px;
 }
 
@@ -30,7 +30,7 @@
     Font-family: "segoe ui";
     font-size: 30px;
     line-height: 35px;
-    letter-spacing: 0.015em;
+    letter-spacing: 2.015px;
     color: #000000;
     font-weight: bold;
 }
