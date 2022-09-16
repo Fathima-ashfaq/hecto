@@ -2,6 +2,7 @@ import chair1 from "./Images/topcategories_chair1.png";
 import chair2 from "./Images/topcategories_chair2.png";
 import chair3 from "./Images/topcategories_chair3.png";
 import chair4 from "./Images/topcategories_chair4.png";
+import slideimage from "./Images/topcategories_slideimage.png";
 import "./Topcategories.css";
 export default function Topcategories() {
     return (
@@ -15,6 +16,9 @@ export default function Topcategories() {
                     <Topcategories_list image={chair2}></Topcategories_list>
                     <Topcategories_list image={chair3}></Topcategories_list>
                     <Topcategories_list image={chair4}></Topcategories_list>
+                </div>
+                <div className="Topcategories_footer">
+                    <img src={slideimage}></img>
                 </div>
             </div>
         </>

@@ -38,7 +38,9 @@
 }
 
 .Topcategories_list_img:hover {
-    box-shadow: 5px 0px 3px 3px rgb(134, 133, 167);
+    /* box-shadow: 5px 0px 3px 3px rgb(134, 133, 167); */
+    /* box-shadow: 0px 8px 40px rgba(49, 32, 138, 0.05); */
+    box-shadow: 3px 3px 3px 3px #965fee;
 }
 
 .Topcategories_list img {
@@ -67,7 +69,7 @@
     Font-family: "segoe ui";
     font-size: 15px;
     line-height: 23px;
-
+    font-weight: 600;
     /* Text */
 
     color: #151875;
@@ -76,4 +78,12 @@
 
 .Topcategories_list_label_l2 {
     font-size: 12px;
+}
+.Topcategories_footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.Topcategories_footer img{
+    width: 50px;
 }

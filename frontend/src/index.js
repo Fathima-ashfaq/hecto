@@ -11,7 +11,7 @@ import Adminsubtitle from './Adminsubtitle';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <InBetweenBanner2/>
+    <Topcategories/>
   </React.StrictMode>
 );
 
