@@ -33,7 +33,7 @@
     align-items: center;
 }
 
-.Topcategories_list_img:hover +.Topcategories_list_img_button {
+.Topcategories_list_img:hover .Topcategories_list_img_button {
     display: block;
 }
 
@@ -59,8 +59,9 @@
     padding: 5px;
     width: 94px;
     height: 29px;
-    /* display: none; */
+    display: none;
 }
+
 
 
 .Topcategories_list_label {
