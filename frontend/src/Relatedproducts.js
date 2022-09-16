@@ -31,7 +31,9 @@ function Relatedproducts_list({ image, label1, label2 }) {
                 <div className="relatedproducts_list_label">
                     <div className="relatedproducts_list_label_l1">
                         <label>{label1}</label>
-                        <img src={star}></img>
+                        <div className="relatedproducts_list_label_l1_img">
+                            <img src={star}></img>
+                        </div>
                     </div>
                     <div className="relatedproducts_list_label_l2">
                         <label>{label2}</label>

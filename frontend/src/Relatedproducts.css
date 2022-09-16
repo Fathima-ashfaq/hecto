@@ -6,7 +6,7 @@
 }
 
 .relatedproducts_list_image img {
-    width: 170px;
+    width: 200px;
     height: 240px;
 }
 
@@ -17,8 +17,9 @@
     /* text-align: center; */
     Font-family: "segoe ui";
     color: #101750;
-    padding-right: 45%;
+    margin-right: 51%;
     padding-bottom: 20px;
+    font-weight: 700;
 }
 
 .relatedproducts_cont {
@@ -35,10 +36,14 @@
 
 .relatedproducts_list_label_l1 {
 
-    font-size: 16px;
+    font-size: 11px;
     line-height: 19px;
     color: #151875;
     Font-family: "segoe ui";
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .relatedproducts_list_label_l2 {
@@ -46,9 +51,15 @@
     font-size: 13px;
     line-height: 15px;
     color: #151875;
+    font-weight: 600;
 }
 
 .relatedproducts_list_label_l1 img {
     width: 39px;
     height: 6px;
+}
+.relatedproducts_list_label_l1_img{
+    display: flex;
+    text-align: end;
+    margin-inline-start: auto;
 }
