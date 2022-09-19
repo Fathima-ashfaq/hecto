@@ -80,11 +80,13 @@
 .Topcategories_list_label_l2 {
     font-size: 12px;
 }
+
 .Topcategories_footer {
     display: flex;
     justify-content: center;
     padding-top: 30px;
 }
-.Topcategories_footer img{
+
+.Topcategories_footer img {
     width: 50px;
 }

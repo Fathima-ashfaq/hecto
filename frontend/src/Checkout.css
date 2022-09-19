@@ -3,13 +3,14 @@
     flex-direction: row;
     width: 100%;
     padding-top: 20px;
-    border-bottom: 1 px solid #E1E1E4;
+    border-bottom: 1 px solid #8b8bd8;
 }
 
 .checkout_right_cont {
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
+    /* border-bottom: 1px solid #6b6bbe; */
 }
 
 
@@ -279,6 +280,7 @@
 .checkout_right_header {
     display: flex;
     flex-direction: row;
+    /* justify-content: space-between; */
 }
 
 .checkout_right_header_h1 {
@@ -287,7 +289,7 @@
     line-height: 23px;
     Font-family: "segoe ui";
     color: #1D3178;
-    width: 60%;
+    width: 70%;
     font-weight: bold;
 }
 
@@ -298,8 +300,9 @@
     Font-family: "segoe ui";
     color: #1D3178;
     width: 15%;
-    margin-right: 16%;
+    /* margin-right: 16%; */
     font-weight: bold;
+    /* padding-left: 32%; */
 }
 
 .checkout_right_header_h3 {
@@ -310,6 +313,7 @@
     color: #1D3178;
     width: 15%;
     font-weight: bold;
+    /* padding-right: 49%; */
 }
 
 .checkout_right_header_h4 {
