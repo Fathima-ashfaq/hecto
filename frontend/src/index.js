@@ -5,7 +5,7 @@ import Mainbanner from './Mainbanner';
 import Topcategories from './Topcategories';
 import Checkout from "./Checkout.js";
 import Relatedproducts from './Relatedproducts';
-import Testing from './Testing'
+// import Testing from './Testing'
 import Admintopbar from './Admintopbar';
 import Adminsubtitle from './Adminsubtitle';
 import Navigation from './Navigation';

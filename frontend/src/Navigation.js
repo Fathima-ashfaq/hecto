@@ -7,6 +7,7 @@ import Checkout from "./Checkout";
 import Relatedproducts from "./Relatedproducts";
 import  Adminsubtitle from "./Adminsubtitle";
 import Shippingaddress from "./Shippingaddress";
+import Adminlinegraph from "./Adminlinegraph";
 export default function Navigation(){
     return(
         <>
@@ -19,6 +20,7 @@ export default function Navigation(){
                 <Route path="/Relatedproducts" element={<Relatedproducts/>}></Route>
                 <Route path="/Adminsubtitle" element={<Adminsubtitle/>}></Route>
                 <Route path="/Shippingaddress" element={<Shippingaddress/>}></Route>
+                <Route path="/Adminlinegraph" element={<Adminlinegraph/>}></Route>
             </Routes> 
         </HashRouter>
 
