@@ -9,6 +9,7 @@ import  Adminsubtitle from "./Adminsubtitle";
 import Shippingaddress from "./Shippingaddress";
 import Adminlinegraph from "./Adminlinegraph";
 import Adminlogstatistics from "./Adminlogstatistics";
+import Adminloginbottom from "./Adminloginbottom";
 export default function Navigation(){
     return(
         <>
@@ -23,6 +24,7 @@ export default function Navigation(){
                 <Route path="/Shippingaddress" element={<Shippingaddress/>}></Route>
                 <Route path="/Adminlinegraph" element={<Adminlinegraph/>}></Route>
                 <Route path="/Adminlogstatistics" element={<Adminlogstatistics/>}></Route>
+                <Route path="/Adminloginbottom" element={<Adminloginbottom/>}></Route>
             </Routes> 
         </HashRouter>
 
