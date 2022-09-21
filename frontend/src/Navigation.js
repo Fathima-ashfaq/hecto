@@ -12,6 +12,7 @@ import Adminlogstatistics from "./Adminlogstatistics";
 import Adminloginbottom from "./Adminloginbottom";
 import Adminuseranalytics from "./Adminuseranalytics";
 import Adminuserlocation from "./Adminuserlocation";
+import Adminmapview from "./Adminmapview";
 export default function Navigation(){
     return(
         <>
@@ -29,6 +30,7 @@ export default function Navigation(){
                 <Route path="/Adminloginbottom" element={<Adminloginbottom/>}></Route>
                 <Route path="/Adminuseranalytics" element={<Adminuseranalytics/>}></Route>
                 <Route path="/Adminuserlocation" element={<Adminuserlocation/>}></Route>
+                <Route path="/Adminmapview" element={<Adminmapview/>}></Route>
             </Routes> 
         </HashRouter>
 
