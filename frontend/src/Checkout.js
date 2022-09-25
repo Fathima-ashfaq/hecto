@@ -114,7 +114,9 @@ function Checkout_cont({ image, label }) {
                     <label>$32.00</label>
                 </div>
                 <div className="checkout_cont_quantity">
-                    <button>1</button>
+                    <button>-</button>
+                    <input></input>
+                    <button>+</button>
                 </div>
                 <div className="checkout_cont_total">
                     <label>£219.00</label>

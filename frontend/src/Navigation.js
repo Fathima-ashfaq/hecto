@@ -16,6 +16,7 @@ import Adminmapview from "./Adminmapview";
 import Adminproductpricesummary from "./Adminproductpricesummary";
 import Adminproductreview from "./Adminproductreview";
 import Adminproductreviewbar from "./Adminproductreviewbar";
+import Adminstatisticsgraph from "./Adminstatisticsgraph";
 export default function Navigation(){
     return(
         <>
@@ -37,6 +38,7 @@ export default function Navigation(){
                 <Route path="/Adminproductpricesummary" element={<Adminproductpricesummary/>}></Route>
                 <Route path="/Adminproductreview" element={<Adminproductreview/>}></Route>
                 <Route path="/Adminproductreviewbar" element={<Adminproductreviewbar/>}></Route>
+                <Route path="/Adminstatisticsgraph" element={<Adminstatisticsgraph/>}></Route>
             </Routes> 
         </HashRouter>
 
