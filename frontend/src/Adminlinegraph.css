@@ -5,10 +5,10 @@
     border: none;
     outline: none;
     background-color: #F6F5FF;
-    margin: 30%;
+    /* margin: 30%; */
     height: 300px;
     width: 300px;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 .adminlinegraph_header {
