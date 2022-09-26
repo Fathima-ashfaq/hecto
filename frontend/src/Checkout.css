@@ -304,7 +304,7 @@
     /* justify-content: center;
     margin-right: 100px;
     width: 15%; */
-    
+
 }
 
 .checkout_right_header_h3 {
@@ -315,7 +315,7 @@
     color: #1D3178;
     /* width: 15%; */
     font-weight: bold;
-    
+
 }
 
 .checkout_right_header_h4 {
@@ -328,11 +328,13 @@
     /* width: 15%; */
     font-weight: bold;
 }
-.checkout_cont_quantity input{
+
+.checkout_cont_quantity input {
     width: 10px;
-   
+
 }
-.checkout_cont_quantity{
+
+.checkout_cont_quantity {
     display: flex;
     flex-direction: row;
     height: 20px;
