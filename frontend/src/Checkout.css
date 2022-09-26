@@ -339,3 +339,14 @@
     flex-direction: row;
     height: 20px;
 }
+.checkout_cont_quantity input{
+    background-color:  #F4F4FC ;
+    border: none;
+    outline: none;
+    color: #7D8FB3;
+}
+.checkout_cont_quantity button{
+    border: none;
+    outline: none;
+    color: #7D8FB3;
+}
