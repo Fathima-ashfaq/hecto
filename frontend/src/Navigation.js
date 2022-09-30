@@ -18,7 +18,7 @@ import Adminproductreview from "./Adminproductreview";
 import Adminproductreviewbar from "./Adminproductreviewbar";
 import Adminstatisticsgraph from "./Adminstatisticsgraph";
 import Adminproductimagesummary from "./Adminproductimagesummary";
-
+import Profileedit from "./Profileedit";
 export default function Navigation(){
     return(
         <>
@@ -42,7 +42,7 @@ export default function Navigation(){
                 <Route path="/Adminproductreviewbar" element={<Adminproductreviewbar/>}></Route>
                 <Route path="/Adminstatisticsgraph" element={<Adminstatisticsgraph/>}></Route>
                 <Route path="/Adminproductimagesummary" element={<Adminproductimagesummary/>}></Route>
-               
+                <Route path="/Profileedit" element={<Profileedit/>}></Route>
             </Routes> 
         </HashRouter>
 
