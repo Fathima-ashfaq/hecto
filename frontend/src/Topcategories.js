@@ -4,7 +4,7 @@ import chair3 from "./Images/topcategories_chair3.png";
 import chair4 from "./Images/topcategories_chair4.png";
 import slideimage from "./Images/topcategories_slideimage.png";
 import "./Topcategories.css";
-export default function Topcategories() {
+export default function Topcategories({ handleShoppageClick }) {
     return (
         <>
             <div className="Topcategories">
@@ -32,7 +32,7 @@ function Topcategories_list({ image }) {
                 <div className="Topcategories_list_img">
                     {/* assigning images to a variable */}
                     <img src={image}></img>
-                    <button className="Topcategories_list_img_button">View Shop</button>
+                    <button onClick={e => handleShoppageClick()} className="Topcategories_list_img_button">View Shop</button>
                 </div>
                 <div className="Topcategories_list_label">
                     <label className="Topcategories_list_label_l1">Mini LCW Chair</label>

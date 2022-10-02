@@ -1,5 +1,5 @@
 import "./Shippingaddress.css";
-export default function Shippingaddress() {
+export default function Shippingaddress(handleOrdercompletedpageClick) {
     return (
         <>
             <div className="shippingaddress">
@@ -34,7 +34,7 @@ export default function Shippingaddress() {
                     </div>
                 </div>
                 <div className="shippingaddress_button">
-                    <button>Place Order</button>
+                    <button onClick={e=>{handleOrdercompletedpageClick()}}>Place Order</button>
                 </div>
             </div>
         </>
